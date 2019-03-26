@@ -1,3 +1,24 @@
+IP2Country Docker Image
+-----------------------
+
+Simple docker image to provide use [https://ip2location.com]https://ip2location.com() 
+and [https://sypexgeo.net](https://sypexgeo.net) databases with automatically updates. 
+Also, it allows you to bypass the download limit. 
+
+## Usage
+
+```Dockefile
+FROM alpine
+COPY --from=microparts/docker-ip2country /database/SxGeo.dat /app/SxGeo.dat
+COPY --from=microparts/docker-ip2country /database/IP2LOCATION-LITE-DB1.BIN /app/IP2LOCATION-LITE-DB1.BIN
+```
+
+## Auto Updates
+
+This docker-image automatically rebuilds every 2 weeks to update databases. 
+
+## License
+
 MIT License
 
 Copyright (c) 2019 Microservices parts bip@teamc.io
