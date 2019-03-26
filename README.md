@@ -7,7 +7,7 @@ Also, it allows you to bypass the download limit.
 
 ## Usage
 
-```Dockefile
+```Dockerfile
 FROM alpine
 COPY --from=microparts/docker-ip2country /database/SxGeo.dat /app/SxGeo.dat
 COPY --from=microparts/docker-ip2country /database/IP2LOCATION-LITE-DB1.BIN /app/IP2LOCATION-LITE-DB1.BIN
