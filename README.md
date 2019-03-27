@@ -3,7 +3,7 @@ IP2Country Docker Image
 
 [![CircleCI](https://circleci.com/gh/microparts/docker-ip2country.svg?style=svg)](https://circleci.com/gh/microparts/docker-ip2country)
 
-Simple docker image to provide use [https://ip2location.com]https://ip2location.com() 
+Simple docker image to provide use [https://ip2location.com](https://ip2location.com) 
 and [https://sypexgeo.net](https://sypexgeo.net) databases with automatically updates. 
 Also, it allows you to bypass the download limit. 
 
@@ -17,7 +17,7 @@ COPY --from=microparts/docker-ip2country /database/IP2LOCATION-LITE-DB1.BIN /app
 
 ## Auto Updates
 
-This docker-image automatically rebuilds every 2 weeks to update databases. 
+This docker-image automatically rebuilds every 1 week to update databases. 
 
 ## License
 
