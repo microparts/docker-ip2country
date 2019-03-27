@@ -17,7 +17,7 @@ COPY --from=microparts/docker-ip2country /database/IP2LOCATION-LITE-DB1.BIN /app
 
 ## Auto Updates
 
-This docker-image automatically rebuilds every 2 weeks to update databases. 
+This docker-image automatically rebuilds every 1 week to update databases. 
 
 ## License
 
