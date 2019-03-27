@@ -13,7 +13,7 @@ RUN apk update \
     && rm -f "$DATABASE_PATH/*" \
     && wget $SXGEO_URL -O "$DATABASE_PATH/SxGeoCountry.zip" \
     && unzip -Co "$DATABASE_PATH/SxGeoCountry.zip" "SxGeo.dat" -d $DATABASE_PATH \
-    && wget -nv $IP2LOCATION_URL -O "$DATABASE_PATH/IP2LOCATION-LITE-DB1.BIN.zip" \
+    && wget -nvq $IP2LOCATION_URL -O "$DATABASE_PATH/IP2LOCATION-LITE-DB1.BIN.zip" \
     && unzip -Co "$DATABASE_PATH/IP2LOCATION-LITE-DB1.BIN.zip" "IP2LOCATION-LITE-DB1.BIN" -d $DATABASE_PATH \
     && rm -f $DATABASE_PATH/*.zip
 
