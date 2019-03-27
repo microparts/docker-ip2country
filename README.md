@@ -1,6 +1,8 @@
 IP2Country Docker Image
 -----------------------
 
+[![CircleCI](https://circleci.com/gh/microparts/docker-ip2country.svg?style=svg)](https://circleci.com/gh/microparts/docker-ip2country)
+
 Simple docker image to provide use [https://ip2location.com]https://ip2location.com() 
 and [https://sypexgeo.net](https://sypexgeo.net) databases with automatically updates. 
 Also, it allows you to bypass the download limit. 
