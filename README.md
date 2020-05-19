@@ -1,3 +1,6 @@
+This package moved to https://github.com/spacetab-io/docker-ip2country
+------------------
+
 IP2Country Docker Image
 -----------------------
 
